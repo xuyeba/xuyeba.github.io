@@ -262,7 +262,7 @@
               
                 
                 <a class="post-title-link" href="/2016/11/21/blog-create/" itemprop="url">
-                  搭建Hexo博客部署到Github并绑定域名
+                  �Hexo���Ͳ�����Github����������
                 </a>
               
             
@@ -314,50 +314,49 @@
       
         
           
-            <h2 id="1-安装Git"><a href="#1-安装Git" class="headerlink" title="1.安装Git"></a>1.安装Git</h2><p><em>Git：主要用于上传博客页面到github和命令操作</em><br><a href="http://pan.baidu.com/s/1kUo8GiN" target="_blank" rel="external">32位系统下载</a><br><a href="http://pan.baidu.com/s/1pKs4sLP" target="_blank" rel="external">64位系统下载</a></p>
-<p><em>一直点击next即可</em><br>安装成功后打开命令窗口,输入git  –version,输出版本号则说明安装成功</p>
+            <h2 id="1-��װGit"><a href="#1-��װGit" class="headerlink" title="1.��װGit"></a>1.��װGit</h2><p><em>Git����Ҫ�����ϴ�����ҳ�浽github����������</em><br><a href="http://pan.baidu.com/s/1kUo8GiN" target="_blank" rel="external">32λϵͳ����</a><br><a href="http://pan.baidu.com/s/1pKs4sLP" target="_blank" rel="external">64λϵͳ����</a></p>
+<p><em>һֱ����next����</em><br>��װ�ɹ�������������ڣ�����git  –version,�����汾����˵����װ�ɹ�</p>
 <blockquote>
 <p>C:\Users\Administrator&gt;git  –version<br>git version 2.8.1.windows.1</p>
 </blockquote>
-<h2 id="2-安装Node-js"><a href="#2-安装Node-js" class="headerlink" title="2.安装Node.js"></a>2.安装Node.js</h2><p><em>Node.js：Hexo的运行环境</em><br><a href="http://pan.baidu.com/s/1jHyKlka" target="_blank" rel="external">32位系统下载</a><br><a href="http://pan.baidu.com/s/1gex4xof" target="_blank" rel="external">64位系统下载</a></p>
-<p><em>一直点击next即可</em><br>安装成功后打开命令窗口,输入git  –version,输出版本号则说明安装成功</p>
+<h2 id="2-��װNode-js"><a href="#2-��װNode-js" class="headerlink" title="2.��װNode.js"></a>2.��װNode.js</h2><p><em>Node.js��Hexo�����л���</em><br><a href="http://pan.baidu.com/s/1jHyKlka" target="_blank" rel="external">32λϵͳ����</a><br><a href="http://pan.baidu.com/s/1gex4xof" target="_blank" rel="external">64λϵͳ����</a></p>
+<p><em>һֱ����next����</em><br>��װ�ɹ�������������ڣ�����git  –version,�����汾����˵����װ�ɹ�</p>
 <blockquote>
 <p>C:\Users\Administrator&gt;node  -v<br>v4.4.3</p>
 </blockquote>
-<h2 id="3-安装Hexo"><a href="#3-安装Hexo" class="headerlink" title="3.安装Hexo"></a>3.安装Hexo</h2><p><em>Hexo：博客程序</em><br>利用 npm 命令即可安装。在任意位置点击鼠标右键，选择Git Base。</p>
+<h2 id="3-��װHexo"><a href="#3-��װHexo" class="headerlink" title="3.��װHexo"></a>3.��װHexo</h2><p><em>Hexo�����ͳ���</em><br>���� npm ����ɰ�װ��������λ�õ��������Ҽ���ѡ��Git Base��</p>
 <ul>
-<li>输入命令：<strong><em>npm install -g hexo</em></strong>   ，等待几分钟。</li>
-<li>安装完成后，在电脑任意位置新建一个文件夹（如C:\Hexo，以后对博客内容的所有修改都必须在此目录下进行），然后在文件夹内点击鼠标右键，选择Git Bash，输入 <strong><em>hexo init</em></strong> ,耐心等待一会，Hexo 即会自动在该文件夹下建立网站所需要的所有文件。</li>
-<li>继续输入<strong><em>npm install</em></strong>,安装所需的依赖包</li>
-<li><p>最后输入<strong><em>npm install hexo-deployer-git –save</em></strong>安装将hexo博客向github上传的模块。</p>
-<p>现在我们已经搭建起本地的hexo博客了，执行以下命令 <strong><em>hexo s</em></strong>(确保当前路径是上面新建文件夹的路径，如上面的C:\Hexo)，然后到浏览器输入localhost:4000，即可看见如下的页面（注意命令窗口不能关闭，否则看不到该页面）。</p>
+<li>�������<strong><em>npm install -g hexo</em></strong>   ���ȴ������ӡ�</li>
+<li>��װ���ɺ����ڵ�������λ���½�һ���ļ��У���C:\Hexo���Ժ��Բ������ݵ������޸Ķ������ڴ�Ŀ¼�½��У���Ȼ�����ļ����ڵ��������Ҽ���ѡ��Git Bash������ <strong><em>hexo init</em></strong> ,���ĵȴ�һ�ᣬHexo �����Զ��ڸ��ļ����½�����վ����Ҫ�������ļ���</li>
+<li>��������<strong><em>npm install</em></strong>,��װ������������</li>
+<li><p>��������<strong><em>npm install hexo-deployer-git –save</em></strong>��װ��hexo������github�ϴ���ģ�顣</p>
+<p>���������Ѿ���𱾵ص�hexo�����ˣ�ִ���������� <strong><em>hexo s</em></strong>(ȷ����ǰ·���������½��ļ��е�·������������C:\Hexo)��Ȼ��������������localhost:4000�����ɿ������µ�ҳ�棨ע������ڲ��ܹرգ����򿴲�����ҳ�棩��</p>
 </li>
 </ul>
-<p><img src="./images/c79155ec31581eb2.png" alt="enter description here"></p>
-<h2 id="4-将本地博客上传到github"><a href="#4-将本地博客上传到github" class="headerlink" title="4.将本地博客上传到github"></a>4.将本地博客上传到github</h2><ul>
-<li>注册github账号，<a href="https://github.com/" target="_blank" rel="external">点此注册</a></li>
-<li>创建Repository,点击右上角的+号，选择New repository，输入Repository Name，注意Repository Name要按要求填写，比如我的Github账号是jack0416，那么我应该创建的Repository的名字是：jack0416.github.io,不区分大小写：<br><img src="./images/d99c339cdfb071d1.png" alt="enter description here"></li>
-<li>修改配置文件：到你刚刚创建的Repository下，找到仓库地址并复制。</li>
+<p><img src="./images/c79155ec31581eb2.png" alt="enter description here" title="c79155ec31581eb2.png"></p>
+<h2 id="4-�����ز����ϴ���github"><a href="#4-�����ز����ϴ���github" class="headerlink" title="4.�����ز����ϴ���github"></a>4.�����ز����ϴ���github</h2><ul>
+<li>ע��github�˺ţ�<a href="https://github.com/" target="_blank" rel="external">����ע��</a></li>
+<li>����Repository,�������Ͻǵ�+�ţ�ѡ��New repository������Repository Name��ע��Repository NameҪ��Ҫ����д�������ҵ�Github�˺���jack0416����ô��Ӧ�ô�����Repository�������ǣ�jack0416.github.io,�����ִ�Сд��<br><img src="./images/d99c339cdfb071d1.png" alt="enter description here" title="d99c339cdfb071d1.png"></li>
+<li>�޸������ļ��������ոմ�����Repository�£��ҵ��ֿ���ַ�����ơ�</li>
 </ul>
-<p>然后打开_config.yml文件（该文件在前面新建的文件夹下，如C:\Hexo）,滚动到最下面，修改文件里面的deploy。其中的repository就改成你刚刚复制的仓库地址,修改完成后点击保存。</p>
+<p>Ȼ������_config.yml�ļ������ļ���ǰ���½����ļ����£���C:\Hexo��,�����������棬�޸��ļ�������deploy�����е�repository�͸ĳ����ոո��ƵĲֿ���ַ,�޸����ɺ��������档</p>
 <blockquote>
-<p>注意：如果：后面有内容，则冒号后面要有一个空格</p>
+<p>ע�⣺���������������ݣ���ð�ź���Ҫ��һ���ո�</p>
 </blockquote>
-<h2 id="5-设置SSH-keys"><a href="#5-设置SSH-keys" class="headerlink" title="5.设置SSH keys"></a>5.设置SSH keys</h2><ul>
-<li>在任意位置点击鼠标右键，选择Git Bash输入以下指令 <strong><em>ls -al ~/.sshls -al ~/.ssh</em></strong>，检查是否已经存在了SSH keys。</li>
-<li>如果提示不存在，则输入以下指令 <strong><em>ssh-keygen -t rsa -C “ssh-keygen -t rsa -C “angelen10@163.com”</em></strong>（邮箱就是你注册Github时候的邮箱，将angelen10@163.com替换成你的邮箱即可）后，一直按回车（中途可能提示你要输入passphrase，不用理会，一直回车就行）;完成后将自动生成.ssh文件夹（一般在c盘的用户目录下），里面有id_rsa和id_rsa.pub两个文件，打开并复制id_rsa.pub文件的内容。</li>
-<li>然后到Github页面，点击右上角的设置图标，选择SSH keys后点击Add SSH key，输入title和key,title随便填什么都行，key的值就是上面复制id_rsa.pub文件的内容，输完后保存点击Add key即可保存（会弹出一个窗口让你输入github的密码）</li>
-<li>最后检查SSH keys是否设置成功，在Git Bash命令窗口输入ssh -T git@github.com并回车，你可能会看到有警告，没事，输入“yes”就好。</li>
-<li><p>最后一步，快要成功了，键入指令：<br>hexo  d  -g（首次使用会询问github的账号信息,要求输入user.name和user.email）</p>
-<blockquote>
-<p>$ git config –global user.name “你的Github账号名称”<br> $ git config –global user.email “你的Github账号邮箱“</p>
-</blockquote>
-</li>
+<h2 id="5-����SSH-keys"><a href="#5-����SSH-keys" class="headerlink" title="5.����SSH keys"></a>5.����SSH keys</h2><ul>
+<li>������λ�õ��������Ҽ���ѡ��Git Bash��������ָ�� <strong><em>ls -al ~/.sshls -al ~/.ssh</em></strong>�������Ƿ��Ѿ�������SSH keys��</li>
+<li>������ʾ�����ڣ�����������ָ�� <strong><em>ssh-keygen -t rsa -C “ssh-keygen -t rsa -C “angelen10@163.com”</em></strong>������������ע��Githubʱ�������䣬��angelen10@163.com�滻���������伴�ɣ�����һֱ���س�����;������ʾ��Ҫ����passphrase���������ᣬһֱ�س����У�;���ɺ����Զ�����.ssh�ļ��У�һ����c�̵��û�Ŀ¼�£���������id_rsa��id_rsa.pub�����ļ����򿪲�����id_rsa.pub�ļ������ݡ�</li>
+<li>Ȼ����Githubҳ�棬�������Ͻǵ�����ͼ�꣬ѡ��SSH keys������Add SSH key������title��key,title������ʲô���У�key��ֵ�������渴��id_rsa.pub�ļ������ݣ������󱣴�����Add key���ɱ��棨�ᵯ��һ��������������github�����룩</li>
+<li>��������SSH keys�Ƿ����óɹ�����Git Bash���������ssh -T git@github.com���س��������ܻῴ���о��棬û�£����롰yes���ͺá�</li>
+<li>����һ������Ҫ�ɹ��ˣ�����ָ�<br>hexo  d  -g���״�ʹ�û�ѯ��github���˺���Ϣ,Ҫ������user.name��user.email��</li>
 </ul>
-<p>OK，我们的博客就已经完全搭建起来了，在浏览器输入 <a href="http://jack0416.github.io/" target="_blank" rel="external">http://jack0416.github.io/</a> （当然，jack0416.github.io改为你创建的仓库名）；如果想用域名访问的话可以继续往下看，前提是你已经购买了自己的域名。</p>
-<h2 id="6-域名绑定"><a href="#6-域名绑定" class="headerlink" title="6.域名绑定"></a>6.域名绑定</h2><ul>
-<li>在source文件夹（在C:\Hexo下）中新建一个CNAME文件（无后缀名），然后用文本编辑器打开，在首行添加你的网站域名，如xxxx.cn，注意前面没有<a href="http://，也没有www，然后使用命令" target="_blank" rel="external">http://，也没有www，然后使用命令</a> <strong><em>hexo d  -g</em></strong>（必须在站点目录下才能执行，如C:\Hexo）进行上传部署。</li>
-<li>注册<a href="https://www.dnspod.cn/" target="_blank" rel="external">DNSpod</a>，然后添加域名，添加记录即可<br><img src="./images/O%60QKZ8ZI3%7B7ET5%7D%5DY1~U9T5.png" alt="enter description here"><br>（1）先添加一个CNAME，主机记录写@，后面记录值写上你的仓库地址<a href="http://xxxx.github.io" target="_blank" rel="external">http://xxxx.github.io</a><br>（2）再添加一个CNAME，主机记录写www，后面记录值也是你的仓库地址<a href="http://xxxx.github.io" target="_blank" rel="external">http://xxxx.github.io</a><br>这样别人用www和不用www都能访问你的网站（其实www的方式，会先解析成<a href="http://xxxx.github.io，然后根据CNAME再变成http://xxx.com，即中间是经过一次转换的）。" target="_blank" rel="external">http://xxxx.github.io，然后根据CNAME再变成http://xxx.com，即中间是经过一次转换的）。</a><br>（3）等十分钟左右，刷新浏览器，用你自己域名访问下试试</li>
+<blockquote>
+<p>$ git config –global user.name “����Github�˺�����”<br>$ git config –global user.email ������Github�˺����䡰</p>
+</blockquote>
+<p>OK�����ǵĲ��;��Ѿ���ȫ������ˣ������������� <a href="http://jack0416.github.io/" target="_blank" rel="external">http://jack0416.github.io/</a> ����Ȼ��jack0416.github.io��Ϊ�㴴���Ĳֿ����������������������ʵĻ����Լ������¿���ǰ�������Ѿ��������Լ���������</p>
+<h2 id="5-��������"><a href="#5-��������" class="headerlink" title="5.��������"></a>5.��������</h2><ul>
+<li>��source�ļ��У���C:\Hexo�£����½�һ��CNAME�ļ����޺�׺������Ȼ�����ı��༭���򿪣�����������������վ��������xxxx.cn��ע��ǰ��û��<a href="http://��Ҳû��www��Ȼ��ʹ������" target="_blank" rel="external">http://��Ҳû��www��Ȼ��ʹ������</a> <strong><em>hexo d  -g</em></strong>��������վ��Ŀ¼�²���ִ�У���C:\Hexo�������ϴ�������</li>
+<li>ע��<a href="https://www.dnspod.cn/" target="_blank" rel="external">DNSpod</a>��Ȼ���������������Ӽ�¼����<br><img src="./images/O%60QKZ8ZI3%7B7ET5%7D%5DY1~U9T5.png" alt="enter description here" title="O`QKZ8ZI3{7ET5}]Y1~U9T5.png"><br>��1��������һ��CNAME��������¼д@��������¼ֵд�����Ĳֿ���ַxxxx.github.io.<br>��2��������һ��CNAME��������¼дwww��������¼ֵҲ�����Ĳֿ���ַxxxx.github.io.<br>����������www�Ͳ���www���ܷ���������վ����ʵwww�ķ�ʽ�����Ƚ�����<a href="http://xxxx.github.io��Ȼ������CNAME�ٱ���http://xxx.cn�����м��Ǿ���һ��ת���ģ���" target="_blank" rel="external">http://xxxx.github.io��Ȼ������CNAME�ٱ���http://xxx.cn�����м��Ǿ���һ��ת���ģ���</a><br>��3����ʮ�������ң�ˢ���������������Լ��������������ԡ�</li>
 </ul>
 
           
