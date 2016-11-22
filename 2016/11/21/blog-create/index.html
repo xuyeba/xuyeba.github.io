@@ -103,7 +103,7 @@ C:\Users\Administrator&amp;gt;git  –versiongit version 2.8.1.windows.1
 <meta property="og:image" content="http://yoursite.com/./images/c79155ec31581eb2.png">
 <meta property="og:image" content="http://yoursite.com/./images/d99c339cdfb071d1.png">
 <meta property="og:image" content="http://yoursite.com/./images/O%60QKZ8ZI3%7B7ET5%7D%5DY1~U9T5.png">
-<meta property="og:updated_time" content="2016-11-22T02:28:37.177Z">
+<meta property="og:updated_time" content="2016-11-22T02:32:27.724Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="搭建Hexo博客部署到Github并绑定域名">
 <meta name="twitter:description" content="1.安装GitGit：主要用于上传博客页面到github和命令操作32位系统下载64位系统下载
@@ -372,7 +372,7 @@ C:\Users\Administrator&amp;gt;git  –versiongit version 2.8.1.windows.1
 <p>OK，我们的博客就已经完全搭建起来了，在浏览器输入 <a href="http://jack0416.github.io/" target="_blank" rel="external">http://jack0416.github.io/</a> （当然，jack0416.github.io改为你创建的仓库名）；如果想用域名访问的话可以继续往下看，前提是你已经购买了自己的域名。</p>
 <h2 id="6-域名绑定"><a href="#6-域名绑定" class="headerlink" title="6.域名绑定"></a>6.域名绑定</h2><ul>
 <li>在source文件夹（在C:\Hexo下）中新建一个CNAME文件（无后缀名），然后用文本编辑器打开，在首行添加你的网站域名，如xxxx.cn，注意前面没有<a href="http://，也没有www，然后使用命令" target="_blank" rel="external">http://，也没有www，然后使用命令</a> <strong><em>hexo d  -g</em></strong>（必须在站点目录下才能执行，如C:\Hexo）进行上传部署。</li>
-<li>注册<a href="https://www.dnspod.cn/" target="_blank" rel="external">DNSpod</a>，然后添加域名，添加记录即可<br><img src="./images/O%60QKZ8ZI3%7B7ET5%7D%5DY1~U9T5.png" alt="enter description here"><br>（1）先添加一个CNAME，主机记录写@，后面记录值写上你的仓库地址xxxx.github.io.<br>（2）再添加一个CNAME，主机记录写www，后面记录值也是你的仓库地址xxxx.github.io.<br>这样别人用www和不用www都能访问你的网站（其实www的方式，会先解析成 <a href="http://xxxx.github.io，然后根据CNAME再变成" target="_blank" rel="external">http://xxxx.github.io，然后根据CNAME再变成</a> <a href="http://xxx.cn，即中间是经过一次转换的）。" target="_blank" rel="external">http://xxx.cn，即中间是经过一次转换的）。</a><br>（3）等十分钟左右，刷新浏览器，用你自己域名访问下试试。</li>
+<li>注册<a href="https://www.dnspod.cn/" target="_blank" rel="external">DNSpod</a>，然后添加域名，添加记录即可<br><img src="./images/O%60QKZ8ZI3%7B7ET5%7D%5DY1~U9T5.png" alt="enter description here"><br>（1）先添加一个CNAME，主机记录写@，后面记录值写上你的仓库地址xxxx.github.io.<br>（2）再添加一个CNAME，主机记录写www，后面记录值也是你的仓库地址xxxx.github.io.<br>（3）等十分钟左右，刷新浏览器，用你自己域名访问下试试。</li>
 </ul>
 
       
